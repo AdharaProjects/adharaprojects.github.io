@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: yellowgreen;
+    color: gainsboro;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -94,25 +94,18 @@ header .header-content .header-content-inner p {
     margin-bottom: 20px;
 }
 
-.intro {
-	color: #fff;
-    background-color: yellowgreen;
-    padding: 70px 0;
-    text-align: center;
-}
-
 .content {
     padding: 100px 0;
 }
 
 .content-2 {
 	color: #fff;
-    background-color: #222;
+    background-color: grey;
 }
 
 .content-3 {
-	padding: 20px 0 40px;
-	text-align: center;
+    color: #fff;
+    background-color: black;
 }
 
 .promo,
@@ -169,7 +162,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: yellowgreen;
+	background-color: gainsboro;
 	color: #fff;
 	}
 
@@ -202,7 +195,7 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: yellowgreen;
+    color: gainsboro;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -217,12 +210,12 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: yellowgreen;
+    color: gainsboro;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: yellowgreen!important;
+    color: gainsboro!important;
     background-color: transparent;
 }
 
@@ -233,7 +226,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: transparent;
         background-color: transparent;
     }
 
@@ -265,7 +258,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         letter-spacing: 0;
-        color: yellowgreen;
+        color: gainsboro;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -280,7 +273,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: yellowgreen;
+        color: gainsboro;
     }
 }
 
@@ -338,9 +331,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: yellowgreen;
+    border-color: gainsboro;
     color: #fff;
-    background-color: yellowgreen;
+    background-color: gainsboro;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -381,12 +374,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: yellowgreen;
-    background-color: yellowgreen;
+    border-color: gainsboro;
+    background-color: gainsboro;
 }
 
 .btn-primary .badge {
-    color: yellowgreen;
+    color: gainsboro;
     background-color: #fff;
 }
 
@@ -423,9 +416,9 @@ img::-moz-selection {
 }
 
 .text-primary {
-    color: yellowgreen;
+    color: gainsboro;
 }
 
 .bg-primary {
-    background-color: yellowgreen;
+    background-color: gainsboro;
 }
