@@ -425,18 +425,18 @@ img::-moz-selection {
 
 .section-header-float {
   position: absolute;
-  margin-top: 50px;
+  margin: 50px 0px 0px 50px;
   font-size: 13pt;
 }
 
 .section-header {
   padding-top: 50px;
-  font-size: 13pt;
+  font-size: 1rem;
 }
 
 .content {
     min-height: 600px;
-    padding: 0px 50px;
+    padding: 0px 0px;
 }
 
 .fixed-center-bg {
@@ -452,4 +452,12 @@ img::-moz-selection {
 
 .product {
   text-align: center;
+  margin: 20px 0px;
+}
+
+.container {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
 }
