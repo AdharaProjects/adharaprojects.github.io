@@ -515,3 +515,10 @@ img::-moz-selection {
 .body {
   font-family: 'Helvetica';
 }
+
+.logo {
+  height: 100px;
+  position: absolute;
+  z-index: 1031;
+  margin: 50px;
+}
