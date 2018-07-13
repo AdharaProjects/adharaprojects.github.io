@@ -489,3 +489,8 @@ img::-moz-selection {
   list-style: none;
   padding-bottom: 5px;
 }
+
+.page-footer {
+  background-color: #333333;
+  color: white;
+}
