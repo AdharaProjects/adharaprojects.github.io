@@ -445,14 +445,14 @@ img::-moz-selection {
   background-position: center;
 }
 
-.product-title {
-  font-weight: bold;
-  margin: 10px 0px;
-}
-
 .product {
   text-align: center;
   margin: 20px 0px;
+}
+
+.product .title {
+  font-weight: bold;
+  margin: 10px 0px;
 }
 
 .center-container {
@@ -493,4 +493,25 @@ img::-moz-selection {
 .page-footer {
   background-color: #333333;
   color: white;
+}
+
+@font-face {
+  font-family: adhara;
+  src: url('../fonts/Geometric Slabserif 703 Bold BT.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: adhara;
+  src: url('../fonts/Geometric Slabserif 703 Light BT.ttf');
+  font-weight: 100;
+}
+
+.title {
+  font-family: 'adhara';
+  font-weight: bold;
+}
+
+.body {
+  font-family: 'Helvetica';
 }
