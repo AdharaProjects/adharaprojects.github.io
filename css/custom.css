@@ -28,7 +28,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/header.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -430,8 +429,8 @@ img::-moz-selection {
 }
 
 .section-header {
-  padding-top: 50px;
-  font-size: 1rem;
+  padding: 50px 0px 0px 50px;
+  font-size: 13pt;
 }
 
 .content {
@@ -447,7 +446,7 @@ img::-moz-selection {
 
 .product-title {
   font-weight: bold;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .product {
@@ -455,9 +454,13 @@ img::-moz-selection {
   margin: 20px 0px;
 }
 
-.container {
+.center-container {
     display: flex;           /* establish flex container */
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
     align-items: center;     /* center items horizontally, in this case */
+}
+
+.uv-grad {
+  background: linear-gradient(to right, #293E90, #571792);
 }
