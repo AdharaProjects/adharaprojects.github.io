@@ -599,3 +599,14 @@ navbar a:hover {
     height: 600px
   }
 }
+
+.navbar-nav > li > a {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  margin: 0px 10px
+}
+
+.navbar-nav > li:hover {
+  border-bottom: solid white 2px;
+}
