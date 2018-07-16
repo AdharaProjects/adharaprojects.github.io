@@ -175,13 +175,13 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-/* .navbar-default {
-    border-color: rgba(34,34,34,.05);
+.navbar-default {
+    border-color: transparent;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-} */
+}
 
 .navbar-default .navbar-header .navbar-brand {
     color: gainsboro;
