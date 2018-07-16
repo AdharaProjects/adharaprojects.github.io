@@ -97,6 +97,11 @@ header .header-content .header-content-inner p {
     padding: 100px 0;
 }
 
+.content-holder {
+  margin: 0 auto;
+  max-width: 90em;
+}
+
 .promo,
 .promo h3,
 .promo a:link,
@@ -460,7 +465,7 @@ img::-moz-selection {
   color: white;
 }
 
-.uv-grad > .section-header {
+.uv-grad > div > .section-header {
   color: white !important;
 }
 
