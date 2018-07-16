@@ -28,11 +28,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 header .header-content {
@@ -472,11 +467,15 @@ img::-moz-selection {
 .uv-grad-connections {
   background:
     linear-gradient(to right, #293E90, #571792),
-    url('../images/connection.jpg');
+    url('../images/connection3.jpg');
   background-blend-mode: screen;
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .bio {
