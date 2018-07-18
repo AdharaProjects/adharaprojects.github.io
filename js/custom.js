@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 	$('a').click(function(){
 		$('html, body').animate({
-			scrollTop: $( $(this).attr('href') ).offset().top - 50
+			scrollTop: $( $(this).attr('href') ).offset().top - 51
 		}, 500)
 		return false
 	})

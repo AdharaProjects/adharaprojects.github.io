@@ -604,9 +604,12 @@ navbar a:hover {
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 5px;
-  margin: 0px 10px
+  margin: 0px 10px;
+  font-family: 'adhara';
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .navbar-nav > li:hover {
-  border-bottom: solid white 2px;
+  border-bottom: solid white 3px;
 }
