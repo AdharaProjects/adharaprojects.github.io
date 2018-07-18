@@ -567,10 +567,18 @@ img::-moz-selection {
   .massive {
     font-size: 3.5vw;
   }
+
+  .header-content-inner {
+    font-family: 'adhara';
+    font-weight: 100;
+    text-align: left;
+    padding-left: 200px;
+    font-size: 3vw;
+  }
 }
 
 @media(min-width: 1170px) {
-  .massive {
+  .header-content-inner {
     font-size: 3em;
   }
 }
@@ -589,7 +597,6 @@ navbar a:hover {
 @media(max-width:768px) {
   #solution {
     min-height: auto;
-
     padding-bottom: 80%;
   }
 }
@@ -608,6 +615,13 @@ navbar a:hover {
   font-family: 'adhara';
   font-weight: bold;
   letter-spacing: 0.05em;
+}
+
+.header-content-inner {
+  font-family: 'adhara';
+  font-weight: 100;
+  text-align: left;
+  padding-left: 200px;
 }
 
 .navbar-nav > li:hover {
