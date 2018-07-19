@@ -509,22 +509,41 @@ header {
 
 header > div {
   font-size: 4.5vw;
+  font-family: 'adhara';
+  font-weight: 100;
+  text-align: left;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 769px) {
   #solution {
     height: 600px
   }
 
   header > div {
-    font-size: 3vw;
+    font-size: 2.5em;
   }
 
   .solutions-long-version {
-    padding-left: 30px;
-    padding-top: 100px;
     font-size: 1.5em;
   }
+
+  #solutions-row > .desc {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    font-size: 1.3em;
+  }
+
+  #solutions-row {
+    display: flex;
+    align-items: center;"
+  }
+
+  #solutions-row > .diagram {
+    width: 40%;
+    padding-right: 50px;
+  }
+
 }
 
 @media(max-width:768px) {
@@ -560,18 +579,27 @@ header > div {
     padding-left: 30px;
   }
 
-  .solutions-long-version {
+  #solutions-row {
+  }
+
+  #solutions-row > .desc {
+    padding-top: 30px;
     font-size: 4vw;
     padding-left: 30px;
     padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
   }
 
+  #solutions-row > .diagram {
+  }
 }
 
 @media(max-width: 425px) {
   header > div {
     font-size: 5vw;
   }
+
 }
 
 #solution > div {
@@ -630,6 +658,7 @@ header > div {
   font-size: 3vw;
 }
 
-.solutions-long-version {
+#solutions-row > .desc {
   font-family: 'adhara';
   font-weight: 100;
+}
