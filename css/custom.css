@@ -412,6 +412,9 @@ img::-moz-selection {
     background-color: gainsboro;
 }
 
+
+
+
 .section-header-float {
   position: absolute;
   padding: 0px !important;
@@ -422,8 +425,6 @@ img::-moz-selection {
   color: #421492;
   padding-left: 50px;
 }
-
-
 
 .content {
     min-height: 600px;
@@ -492,6 +493,115 @@ img::-moz-selection {
   color: white;
 }
 
+
+.logo {
+  height: 100px;
+  position: absolute;
+  z-index: 1031;
+  margin: 50px;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+header > div {
+  font-size: 4.5vw;
+}
+
+@media(min-width: 768px) {
+  #solution {
+    height: 600px
+  }
+
+  header > div {
+    font-size: 3vw;
+  }
+
+  .solutions-long-version {
+    padding-left: 30px;
+    padding-top: 100px;
+    font-size: 1.5em;
+  }
+}
+
+@media(max-width:768px) {
+  #solution {
+    min-height: auto;
+    padding-bottom: 80%;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  header > div {
+    font-size: 4vw;
+  }
+
+  .massive {
+    font-size: 3.5vw;
+  }
+
+  .content {
+      min-height: 600px;
+      padding: 30px 0px;
+  }
+
+  .section-header-float {
+    position: absolute;
+    padding: 0px !important;
+  }
+
+  .section-header {
+    font-size: 11pt;
+    padding-left: 30px;
+  }
+
+  .solutions-long-version {
+    font-size: 4vw;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+}
+
+@media(max-width: 425px) {
+  header > div {
+    font-size: 5vw;
+  }
+}
+
+#solution > div {
+  background: url(../images/solution_diagram.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+}
+
+.centerer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-nav > li > a {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  margin: 0px 10px;
+  font-family: 'adhara';
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.navbar-nav > li:hover {
+  border-bottom: solid white 3px;
+}
+
 @font-face {
   font-family: adhara;
   src: url('../fonts/Geometric Slabserif 703 Bold BT.ttf');
@@ -507,54 +617,11 @@ img::-moz-selection {
 .title {
   font-family: 'adhara';
   font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .body {
   font-family: 'Helvetica';
-}
-
-.logo {
-  height: 100px;
-  position: absolute;
-  z-index: 1031;
-  margin: 50px;
-}
-
-@media(min-width:768px) {
-  .header-content {
-    margin-top: -50px;
-  }
-
-  .header-content-inner {
-    font-size: 30px;
-  }
-}
-
-
-@media(max-width:768px) {
-  header {
-    min-height: 450px;
-  }
-
-  .content {
-      min-height: 600px;
-      padding: 30px 0px;
-  }
-
-  .header-content-inner {
-    padding-top: 100px;
-  }
-
-  .section-header-float {
-    position: absolute;
-    padding: 0px !important;
-  }
-
-  .section-header {
-    font-size: 11pt;
-    color: #421492;
-    padding-left: 30px;
-  }
 }
 
 .massive {
@@ -563,67 +630,6 @@ img::-moz-selection {
   font-size: 3vw;
 }
 
-@media(max-width: 768px) {
-  .massive {
-    font-size: 3.5vw;
-  }
-
-  .header-content-inner {
-    font-family: 'adhara';
-    font-weight: 100;
-    text-align: left;
-    padding-left: 200px;
-    font-size: 3vw;
-  }
-}
-
-@media(min-width: 1170px) {
-  .header-content-inner {
-    font-size: 3em;
-  }
-}
-
-navbar a:hover {
-  text-decoration-style: solid 3px #FFF;
-}
-
-#solution {
-  background: url(../images/solution_diagram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-@media(max-width:768px) {
-  #solution {
-    min-height: auto;
-    padding-bottom: 80%;
-  }
-}
-
-@media(min-width:768px) {
-  #solution {
-    height: 600px
-  }
-}
-
-.navbar-nav > li > a {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 5px;
-  margin: 0px 10px;
-  font-family: 'adhara';
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-
-.header-content-inner {
+.solutions-long-version {
   font-family: 'adhara';
   font-weight: 100;
-  text-align: left;
-  padding-left: 200px;
-}
-
-.navbar-nav > li:hover {
-  border-bottom: solid white 3px;
-}
