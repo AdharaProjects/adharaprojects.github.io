@@ -616,11 +616,13 @@ header > div {
   height: 100%;
 }
 
+.navbar-nav > li {
+  margin: 10px 10px;
+}
+
 .navbar-nav > li > a {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 0px;
   padding-bottom: 5px;
-  margin: 0px 10px;
   font-family: 'adhara';
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -629,6 +631,11 @@ header > div {
 .navbar-nav > li:hover {
   border-bottom: solid white 3px;
 }
+
+.navbar-nav > li:active {
+  border-bottom: solid white 3px;
+}
+
 
 @font-face {
   font-family: adhara;
