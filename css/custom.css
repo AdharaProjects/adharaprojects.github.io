@@ -515,9 +515,6 @@ header > div {
 }
 
 @media(min-width: 769px) {
-  #solution {
-    height: 600px
-  }
 
   header > div {
     font-size: 2.5em;
@@ -547,11 +544,6 @@ header > div {
 }
 
 @media(max-width:768px) {
-  #solution {
-    min-height: auto;
-    padding-bottom: 80%;
-  }
-
   header {
     min-height: 450px;
   }
@@ -600,14 +592,6 @@ header > div {
     font-size: 5vw;
   }
 
-}
-
-#solution > div {
-  background: url(../images/solution_diagram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 100%;
 }
 
 .centerer {
