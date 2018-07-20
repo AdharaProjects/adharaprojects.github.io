@@ -527,10 +527,9 @@ header > div {
     align-items: center;"
   }
   #solutions-row > .desc {
-    display: flex;
-    justify-content: center;
     width: 60%;
     font-size: 1.3em;
+    padding-left: 95px;
   }
   #solutions-row > .diagram {
     width: 40%;
@@ -548,8 +547,9 @@ header > div {
   #comingsoon-row > .desc {
     text-align: left;
     padding-left: 50px;
+    padding-right: 30px;
     width: 60%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
