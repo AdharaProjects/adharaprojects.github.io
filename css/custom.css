@@ -630,6 +630,10 @@ header > div {
   border-bottom: solid white 3px;
 }
 
+.navbar-nav > li.no-underline:hover {
+  border-bottom: 0px;
+}
+
 .navbar-nav > li:active {
   border-bottom: solid white 3px;
 }
