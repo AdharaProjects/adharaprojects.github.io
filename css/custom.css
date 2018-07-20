@@ -578,13 +578,14 @@ header > div {
 
   #solutions-row > .desc {
     padding-top: 30px;
-    font-size: 4vw;
+    font-size: 3.5vw;
     padding-left: 30px;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
   }
   #solutions-row > .diagram {
+    padding: 0px 30px;
   }
 
   #comingsoon-row {
