@@ -522,23 +522,35 @@ header > div {
     font-size: 1.5em;
   }
 
+  #solutions-row {
+    display: flex;
+    align-items: center;"
+  }
   #solutions-row > .desc {
     display: flex;
     justify-content: center;
     width: 60%;
     font-size: 1.3em;
   }
-
-  #solutions-row {
-    display: flex;
-    align-items: center;"
-  }
-
   #solutions-row > .diagram {
     width: 40%;
     padding-right: 50px;
   }
 
+  #comingsoon-row {
+    display: flex;
+    align-items: center;
+  }
+  #comingsoon-row > .diagram {
+    width: 40%;
+    text-align: right;
+  }
+  #comingsoon-row > .desc {
+    text-align: left;
+    padding-left: 50px;
+    width: 60%;
+    font-size: 2em;
+  }
 }
 
 @media(max-width:768px) {
@@ -564,9 +576,6 @@ header > div {
     padding-left: 30px;
   }
 
-  #solutions-row {
-  }
-
   #solutions-row > .desc {
     padding-top: 30px;
     font-size: 4vw;
@@ -575,9 +584,20 @@ header > div {
     display: flex;
     justify-content: center;
   }
-
   #solutions-row > .diagram {
   }
+
+  #comingsoon-row {
+    padding-top: 50px;
+    text-align: center;
+  }
+  #comingsoon-row > .diagram {
+  }
+  #comingsoon-row > .desc {
+    padding-top: 40px;
+    font-size: 3.5vw;
+  }
+
 }
 
 @media(max-width: 425px) {
