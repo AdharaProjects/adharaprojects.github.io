@@ -524,15 +524,16 @@ header > div {
 
   #solutions-row {
     display: flex;
-    align-items: center;"
+    align-items: center;
+    min-height: 600px;
   }
   #solutions-row > .desc {
-    width: 60%;
-    font-size: 1.3em;
+    width: 50%;
+    font-size: 1.9vw;
     padding-left: 95px;
   }
   #solutions-row > .diagram {
-    width: 40%;
+    width: 50%;
     padding-right: 50px;
   }
 
@@ -576,6 +577,9 @@ header > div {
     padding-left: 30px;
   }
 
+  #solutions-row > .diagram {
+    min-height: auto;
+  }
   #solutions-row > .desc {
     padding-top: 30px;
     font-size: 3.5vw;
@@ -585,11 +589,11 @@ header > div {
     justify-content: center;
   }
   #solutions-row > .diagram {
-    padding: 0px 30px;
+    padding: 0px 50px;
   }
 
   #comingsoon-row {
-    padding-top: 50px;
+    padding-top: 150px;
     text-align: center;
   }
   #comingsoon-row > .diagram {
@@ -608,6 +612,20 @@ header > div {
 
 }
 
+
+@media(min-width: 1280px) {
+  #solutions-row > .desc {
+    width: 50%;
+    font-size: 1.8em;
+    padding-left: 95px;
+  }
+  #solutions-row > .diagram {
+    width: 50%;
+    padding-right: 50px;
+  }
+}
+
+
 .centerer {
   display: flex;
   align-items: center;
@@ -615,7 +633,8 @@ header > div {
 }
 
 .navbar-nav > li {
-  margin: 10px 10px;
+  margin: 10px 10px 0px 10px;
+  padding-bottom: 3px;
 }
 
 .navbar-nav > li > a {
@@ -627,6 +646,7 @@ header > div {
 }
 
 .navbar-nav > li:hover {
+  padding-bottom: 0px;
   border-bottom: solid white 3px;
 }
 
@@ -664,6 +684,10 @@ header > div {
 .geoslab {
   font-family: 'adhara';
   font-weight: 100;
+}
+
+.page-footer {
+  padding: 30px;
 }
 
 #solutions-row > .desc {
