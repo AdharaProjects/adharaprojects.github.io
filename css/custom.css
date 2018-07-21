@@ -645,7 +645,8 @@ header > div {
   letter-spacing: 0.05em;
 }
 
-.navbar-nav > li:hover {
+.navbar-nav > li:hover,
+.navbar-nav > li.active {
   padding-bottom: 0px;
   border-bottom: solid white 3px;
 }
@@ -653,11 +654,6 @@ header > div {
 .navbar-nav > li.no-underline:hover {
   border-bottom: 0px;
 }
-
-.navbar-nav > li:active {
-  border-bottom: solid white 3px;
-}
-
 
 @font-face {
   font-family: adhara;

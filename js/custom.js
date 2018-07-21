@@ -20,4 +20,23 @@ $(document).ready(function(){
 	$('#navbar').on('hidden.bs.collapse', function () {
 		$(	"#header-logo").css("display", "block");
 	})
+
+    $(document).on("scroll", onScroll);
+
+		onScroll(null)
 });
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#navbar a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos + 50 && refElement.position().top + refElement.height() +50 > scrollPos) {
+            $('#navbar ul li').removeClass("active");
+            currLink.parent().addClass("active");
+        }
+        else{
+            currLink.parent().removeClass("active");
+        }
+    });
+}
