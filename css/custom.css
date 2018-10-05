@@ -690,3 +690,8 @@ header > div {
   font-family: 'adhara';
   font-weight: 100;
 }
+
+.btn-primary:hover {
+  background-color: #412a91;
+  border-color: #412a91;
+}
