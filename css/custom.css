@@ -695,3 +695,17 @@ header > div {
   background-color: #412a91;
   border-color: #412a91;
 }
+
+.img-avatar {
+    border-radius: 50%;
+}
+
+.team {
+  height: 225px;
+}
+
+.alert-success {
+	color: #4f1bc3;
+	background-color: ##f2efff;
+	border-color: #b899f6;
+}
