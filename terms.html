@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126201062-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126201062-1');
+    </script>
+
+    <title>Adhara</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+    <div class="content-holder">
+      <div class="logo" id="header-logo">
+        <object data="images/logo_white.svg" type="image/svg+xml" style="height: 100%;"></object>
+      </div>
+    </div>
+
+    <header id="home" class="uv-grad-connections">
+
+      <div class="container center-container" style="min-height: 600px">
+        <div class="row" style="display: flex; justify-content: center;">
+          <div class="static">
+            <div class="static-header">Terms of Business</div>
+            <div class="static-content">
+              These are the terms...
+              1) <br />
+              2) <br />
+              3) <br />
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <footer class="page-footer">
+    		<div>
+          <p>Adhara Limited 19-23 Featherstone St, London, EC1Y 8SL</p>
+        </div>
+    		<div id="links-footer" style="margin-top: 10px;">
+          <a href="policy.html">Privacy Policy</a> |
+          <a href="terms.html">Terms of Business</a>
+        </div>
+    		<div id="copyright">
+          Copyright &copy; adhara.io 2018
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_9jlV2UqxLnUia9IjE5ZYb");
+       })();
+    </script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+       $(document).ready(function() {
+           document.getElementById('contact-form').addEventListener('submit', function(event) {
+               event.preventDefault();
+               emailjs.sendForm('contact_service', 'contact_template', this)
+               .then(function(response) {
+                 $('#contact-form-alert')
+                 .addClass("alert-success")
+                 .text('Your message has been sent')
+                 $('#contact-form').hide()
+               }, function(error) {
+                 $('#contact-form-alert')
+                 .addClass("alert-danger")
+                 .text("There was an error sending your message")
+                 $('#contact-form').hide()
+               });
+           });
+       });
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

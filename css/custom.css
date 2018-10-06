@@ -683,7 +683,8 @@ header > div {
 }
 
 .page-footer {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 #solutions-row > .desc {
@@ -708,4 +709,33 @@ header > div {
 	color: #4f1bc3;
 	background-color: ##f2efff;
 	border-color: #b899f6;
+}
+
+#links-footer {
+  font-size: 14px;
+}
+#links-footer > a {
+  color: white;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+.static {
+	width: 800px;
+	background-color: #FFFFFFCC;
+	height: 70vh;
+	margin-top: 100px;
+	border-radius: 1%;
+  color: black;
+  padding: 10px !important;
+}
+
+.static-header {
+  text-align: center;
+}
+
+.static-content {
+  font-size: 14px;
 }
