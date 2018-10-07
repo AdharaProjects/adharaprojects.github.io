@@ -741,3 +741,11 @@ header > h1 {
 .static-content {
   font-size: 14px;
 }
+
+.product-icon {
+    height: 90px;
+}
+
+.audience-icon {
+    height: 65px;
+}
