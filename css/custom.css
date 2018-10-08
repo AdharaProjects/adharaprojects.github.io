@@ -749,3 +749,8 @@ header > h1 {
 .audience-icon {
     height: 65px;
 }
+
+.col-lg-3  {
+  padding-right: 10px;
+  padding-left: 10px;
+}
