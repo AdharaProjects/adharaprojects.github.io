@@ -711,10 +711,17 @@ header > h1 {
   height: 225px;
 }
 
+.alert {
+	background-color: inherit;
+	border: none;
+}
+
 .alert-success {
 	color: #4f1bc3;
-	background-color: ##f2efff;
-	border-color: #b899f6;
+}
+
+.alert-danger {
+	color: #ff0000;
 }
 
 #links-footer {
