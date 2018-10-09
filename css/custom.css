@@ -447,6 +447,10 @@ img::-moz-selection {
   color: white !important;
 }
 
+h1 {
+  line-height: 1.5em;
+}
+
 h2,
 h3 {
   font-family: 'adhara';
