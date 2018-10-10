@@ -765,3 +765,12 @@ header > h1 {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+.news {
+  margin-top: 50px;
+}
+
+.news > div.date {
+  font-family: 'adhara';
+  font-weight: bold;
+}
