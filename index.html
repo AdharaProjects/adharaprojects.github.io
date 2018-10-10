@@ -44,7 +44,6 @@
                     <li><a href="#products">OUR PRODUCTS</a></li>
                     <li><a href="#audience">OUR AUDIENCE</a></li>
                     <li><a href="#founders">OUR FOUNDERS</a></li>
-                    <li><a href="#contact">GET IN TOUCH</a></li>
                     <li class="no-underline">
                       <a href="https://www.linkedin.com/company/adhara-io">
                         <img src="images/In-2C-81px-TM.png" style="float: right; height: 20px;" alt="linkedin">
@@ -216,39 +215,6 @@
       </div>
     </section>
 
-     <section id="contact" class="content">
-       <div class="content-holder">
-         <h2>6.0 | GET IN TOUCH</h2>
-         <div class="container center-container" style="min-height: 600px">
-           <div class="row" style="display: flex; justify-content: center;">
-             <div style="width: 600px;">
-               <div id="contact-form-alert" class="alert" style="text-align: center;"></div>
-               <form id="contact-form">
-                 <div class="form-group">
-                   <label for="from_name">Name</label>
-                   <input class="form-control"  type="text" name="from_name">
-                 </div>
-                 <div class="form-group">
-                   <label for="from_email">Email</label>
-                   <input class="form-control"  type="email" name="from_email">
-                 </div>
-                 <div class="form-group">
-                   <label for="message">Message</label>
-                   <textarea class="form-control"  name="message"></textarea>
-                 </div>
-                 <div class="form-group">
-                   <div class="g-recaptcha" data-sitekey="6LeJtnMUAAAAACK6jsd7zMassYfQ2Dcf0I7XTEHj"></div>
-                 </div>
-                 <div class="form-group">
-                   <button type="submit" class="btn btn-primary">Submit</button>
-                 </div>
-               </form>
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
-
     <footer class="page-footer">
     		<div>
           <p>Adhara Limited 19-23 Featherstone St, London, EC1Y 8SL</p>
@@ -262,32 +228,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-    <script type="text/javascript">
-       (function(){
-          emailjs.init("user_9jlV2UqxLnUia9IjE5ZYb");
-       })();
-    </script>
     <script src="js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-       $(document).ready(function() {
-           document.getElementById('contact-form').addEventListener('submit', function(event) {
-               event.preventDefault();
-               emailjs.sendForm('contact_service', 'contact_template', this)
-               .then(function(response) {
-                 $('#contact-form-alert')
-                 .addClass("alert-success")
-                 .text('Your message has been sent')
-                 $('#contact-form').hide()
-               }, function(error) {
-                 $('#contact-form-alert')
-                 .addClass("alert-danger")
-                 .text("There was an error sending your message")
-                 $('#contact-form').hide()
-               });
-           });
-       });
-    </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/custom.js"></script>
