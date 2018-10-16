@@ -766,11 +766,16 @@ header > h1 {
   padding-left: 10px;
 }
 
-.news {
-  margin-top: 50px;
-}
-
-.news > div.date {
+.news .date {
   font-family: 'adhara';
   font-weight: bold;
+}
+
+.news img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.news-image {
+  text-align: center;
 }
