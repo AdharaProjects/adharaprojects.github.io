@@ -6,7 +6,7 @@ $(document).ready(function(){
 	// 	}
 	// })
 
-	$('a').click(function(){
+	$('#navbar a').click(function(){
 		$('html, body').animate({
 			scrollTop: $( $(this).attr('href') ).offset().top - 50
 		}, 500)

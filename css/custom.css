@@ -779,3 +779,18 @@ header > h1 {
 .news-image {
   text-align: center;
 }
+
+.carousel {
+  display: inline-block;
+  height: 400px;
+  width: 800px;
+}
+
+.carousel > .left,
+.carousel > .right {
+  background-image: none;
+}
+
+.carousel-inner > .item > img {
+  display: inline-block;
+}
