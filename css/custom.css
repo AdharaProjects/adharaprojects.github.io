@@ -782,8 +782,8 @@ header > h1 {
 
 .carousel {
   display: inline-block;
-  height: 400px;
-  width: 800px;
+  height: 360px;
+  width: 700px;
 }
 
 .carousel > .left,
@@ -791,6 +791,14 @@ header > h1 {
   background-image: none;
 }
 
+.carousel > .carousel-control {
+  width: auto;
+}
+
 .carousel-inner > .item > img {
   display: inline-block;
+}
+
+.carousel-indicators {
+  bottom: -40px;
 }
