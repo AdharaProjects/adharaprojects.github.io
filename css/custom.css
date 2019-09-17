@@ -736,10 +736,10 @@ header > h1 {
 }
 
 .static {
-	width: 800px;
+	width: 1000px;
 	background-color: #FFFFFFCC;
-	height: 70vh;
-	margin-top: 100px;
+	margin-top: 200px;
+	margin-bottom: 50px;
 	border-radius: 1%;
   color: black;
   padding: 10px !important;
@@ -751,6 +751,7 @@ header > h1 {
 
 .static-content {
   font-size: 14px;
+  text-align: left;
 }
 
 .product-icon {
@@ -778,4 +779,12 @@ header > h1 {
 
 .news-image {
   text-align: center;
+}
+
+.pr-title {
+  font-family: 'adhara';
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
